@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.topheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px  15px  0  70px;
+  background-color: #ce7e16;
+  color: white;
+}
+.topheader h1 {
+font-size: 2.75rem;
+font-weight: 700;
+letter-spacing: 1.5px;
+ margin:  20px 0; 
+}
+.header-img{
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+main {
+  padding: 10px  20px;
+}
+.intro-section {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  margin: 16px  0;
+  padding: 0;
+  
+}
+h2 {
+   padding: 5px 25px; 
+}
+.intro-section p {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  margin:  16px  auto;
+  padding: 0;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  letter-spacing: 0.4px;
+  word-spacing: 1.8px;
+  text-align: justify;
+}
+
+.intro-section a {
+  display: inline-block;
+margin: 16px 0;
+font-size: 1.05rem; 
+letter-spacing: 0.4px; 
+word-spacing: 1.8px;
+
+}
+
+
+.explore-section {
+width: 100%;
+max-width: 1100px;
+margin: 0  auto;
+}
+
+  
+.main-photo {
+display: block; 
+width: 92%;
+max-width: 950px;
+margin: 24px  auto;
+height: auto;
+border-radius: 8px;
+}
+h3{
+  padding:  15px  20px;
+}
+.footer-photo {
+display: block;
+width:  250px;
+height:  180px;
+margin:  24px  auto;
+object-fit:  cover;
+border-radius:  8px;
+}
